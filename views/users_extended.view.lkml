@@ -17,9 +17,8 @@ measure: count_extended {
 }
 
 parameter: big_search_filter {   #testing BQ Big Search ... see .mdl
-    suggestable: no
-    type: unquoted
-  }
+  type: number
+}
 
 measure: count_liquid {
   type: number
